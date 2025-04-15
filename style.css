@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #2A2A72;
+    --secondary-color: #009FFD;
+}
+
+.hero {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 4rem 0;
+}
+
+.services .card {
+    border: none;
+    transition: transform 0.3s;
+}
+
+.services .card:hover {
+    transform: translateY(-10px);
+}
+
+.cta {
+    background: var(--primary-color);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    border: none;
+}
