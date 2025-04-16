@@ -70,3 +70,29 @@
 .form-control {
     padding-left: 2.8rem !important;
 }
+
+.consultation-form {
+    padding: 6rem 0 3rem;
+    background: linear-gradient(45deg, var(--light-bg), #ffffff);
+}
+
+.form-floating {
+    position: relative;
+}
+
+.form-floating i {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--primary-color);
+    z-index: 3;
+}
+
+.form-floating label {
+    padding-left: 2.5rem;
+}
+
+.form-control {
+    padding-left: 2.8rem !important;
+}
