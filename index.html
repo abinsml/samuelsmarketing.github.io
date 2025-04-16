@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+]<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,10 +6,11 @@
     <title>Samuels Marketing - AI Social Media Agency</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">Samuels Marketing</a>
         </div>
@@ -18,47 +19,83 @@
     <!-- Hero Section -->
     <header class="hero">
         <div class="container text-center py-5">
-            <h1>Empowering Brands with AI-Driven Excellence</h1>
-            <p class="lead mt-3">Transform your social media strategy with AI agents that work 24/7</p>
+            <h1 class="display-4 mb-4">Empowering Brands with AI-Driven Excellence</h1>
+            <p class="lead mb-4">Transform your social media strategy with AI agents that work 24/7</p>
             <a href="#contact" class="btn btn-primary btn-lg mt-3">Schedule Consultation</a>
         </div>
     </header>
+
+    <!-- Intro Section -->
+    <section class="intro py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="lead">At Samuels Marketing, we blend cutting-edge artificial intelligence with human creativity to revolutionize your social media presence. As a forward-thinking agency, we provide custom AI agents designed to streamline your marketing efforts, amplify engagement, and deliver measurable results—24/7.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Services Section -->
     <section class="services py-5">
         <div class="container">
             <h2 class="text-center mb-5">What We Offer</h2>
-            <div class="row">
-                <!-- AI Content Creation -->
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow">
                         <div class="card-body">
+                            <i class="fas fa-robot text-primary mb-3 fa-2x"></i>
                             <h5 class="card-title">AI-Powered Content Creation</h5>
-                            <p class="card-text">Dynamic, brand-aligned posts powered by machine learning and NLP.</p>
+                            <p class="card-text">Dynamic, brand-aligned posts, captions, and visuals tailored to your audience, powered by machine learning and natural language processing.</p>
                         </div>
                     </div>
                 </div>
-                
-                <!-- Repeat for other services -->
-                <!-- Add Smart Scheduling, Analytics, Engagement, Ad Campaigns cards -->
+                <!-- Repeat for other services with unique icons -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow">
+                        <div class="card-body">
+                            <i class="fas fa-calendar-alt text-primary mb-3 fa-2x"></i>
+                            <h5>Smart Scheduling & Publishing</h5>
+                            <p>AI agents optimize posting times and auto-publish content across platforms for maximum reach.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add remaining service cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-5">Why Choose Samuels Marketing?</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="text-center p-4">
+                        <i class="fas fa-bolt mb-3 fa-2x text-secondary"></i>
+                        <h5>Efficiency Meets Creativity</h5>
+                        <p>Our AI handles repetitive tasks, freeing your team for creative strategy.</p>
+                    </div>
+                </div>
+                <!-- Add other why choose points -->
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="cta bg-dark text-white py-5">
+    <section class="cta py-5 bg-primary text-white">
         <div class="container text-center">
-            <h2>Innovate Smarter. Grow Faster.</h2>
-            <p class="mt-3">Let our AI agents work while you sleep</p>
-            <a href="#contact" class="btn btn-light btn-lg mt-3">Start Today</a>
+            <h2 class="mb-4">Innovate Smarter. Grow Faster.</h2>
+            <p class="mb-4">Let Samuels Marketing transform your social media strategy with AI that works while you sleep.</p>
+            <a href="#contact" class="btn btn-light btn-lg">Start Today</a>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-dark text-white py-4">
         <div class="container text-center">
-            <p>&copy; 2023 Samuels Marketing. All rights reserved.</p>
-            <p class="mb-0">Where AI Meets Human Insight</p>
+            <p class="mb-2">&copy; 2023 Samuels Marketing. All rights reserved.</p>
+            <p class="mb-0"><em>Where AI Meets Human Insight to Redefine Social Success</em></p>
         </div>
     </footer>
 
