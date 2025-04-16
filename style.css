@@ -1,33 +1,46 @@
 :root {
     --primary-color: #2A2A72;
     --secondary-color: #009FFD;
+    --light-bg: #f8f9fa;
 }
 
 .hero {
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     color: white;
+    padding: 7rem 0 4rem;
+}
+
+.intro {
+    background: var(--light-bg);
     padding: 4rem 0;
 }
 
 .services .card {
     border: none;
     transition: transform 0.3s;
+    background: white;
 }
 
 .services .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 
-.cta {
+.why-choose {
     background: var(--primary-color);
 }
 
-.navbar-brand {
-    font-weight: bold;
-    letter-spacing: 1px;
+.cta {
+    background: var(--secondary-color);
 }
 
-.btn-primary {
-    background-color: var(--secondary-color);
-    border: none;
+.shadow {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.fa-2x {
+    font-size: 2.5em;
 }
